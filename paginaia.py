@@ -29,7 +29,7 @@ st.markdown("""
 
 # Barra de navegación lateral
 menu = st.sidebar.radio("📌 Navegación", 
-                        ["Inicio", "Línea del Tiempo IA", "Problemática de Línea del Tiempo", "Infografías IA's", "Glosario IA", "Disciplinas básicas de la IA", "Reporte de IA", "Investigación de Algoritmos de úsqueda", 
+                        ["Inicio", "Línea del Tiempo IA", "Problemática de Línea del Tiempo", "Infografías IA's", "Glosario IA", "Disciplinas básicas de la IA", "Reporte de IA", "Investigación de Algoritmos de búsqueda", 
                          "Infografía de Clasificación de Algoritmos de IA"])
 
 # ---------------- Pantalla de Inicio ----------------
