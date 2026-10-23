@@ -29,7 +29,8 @@ st.markdown("""
 
 # Barra de navegación lateral
 menu = st.sidebar.radio("📌 Navegación", 
-                        ["Inicio", "Línea del Tiempo IA", "Problemática de Línea del Tiempo", "Infografías IA's", "Glosario IA", "Disciplinas básicas de la IA", "Reporte de IA"])
+                        ["Inicio", "Línea del Tiempo IA", "Problemática de Línea del Tiempo", "Infografías IA's", "Glosario IA", "Disciplinas básicas de la IA", "Reporte de IA", " Investigacion de Algoritmos de Busqueda", 
+                         "Infografia de clasificacion de Algoritmos de IA"])
 
 # ---------------- Pantalla de Inicio ----------------
 if menu == "Inicio":
@@ -128,3 +129,13 @@ elif menu == "Reporte de IA":
     st.image("ensayo/4.png", caption="Reporte de Inteligencia Artificial")
     st.image("ensayo/5.png", caption="Reporte de Inteligencia Artificial")
     st.image("ensayo/6.png", caption="Reporte de Inteligencia Artificial")
+
+elif menu == "Investigacion de Algoritmos de Busqueda":
+    st.title("🔍 Investigación de Algoritmos de Búsqueda")
+    st.image("imagenes/algoritmos1.png", caption="Investigación de Algoritmos de Búsqueda")
+    st.image("imagenes/algoritmos2.png", caption="Investigación de Algoritmos de Búsqueda")
+    st.image("imagenes/algoritmos3.png", caption="Investigación de Algoritmos de Búsqueda")
+
+elif menu == "Infografia de clasificacion de Algoritmos de IA":
+    st.tittle("📊 Infografía de Clasificación de Algoritmos de IA")
+    st.image("imagenes/algoritmos.png", caption="Clasificación de Algoritmos de IA")
