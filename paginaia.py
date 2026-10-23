@@ -137,5 +137,5 @@ elif menu == "Investigacion de Algoritmos de Busqueda":
     st.image("imagenes/algoritmos3.png", caption="Investigación de Algoritmos de Búsqueda")
 
 elif menu == "Infografia de clasificacion de Algoritmos de IA":
-    st.tittle("📊 Infografía de Clasificación de Algoritmos de IA")
-    st.image("imagenes/algoritmos.png", caption="Clasificación de Algoritmos de IA")
+    st.title("📊 Infografía de Clasificación de Algoritmos de IA")
+    st.image("imagenes/algortimos.png", caption="Clasificación de Algoritmos de IA")
